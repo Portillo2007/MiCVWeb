@@ -182,3 +182,61 @@ body{
 .csharp{
     width:80%;
 }
+
+/* FORMULARIO DE CONTACTO */
+
+.contact-section{
+    margin-top:40px;
+}
+
+.contact-form{
+    background:#ffffff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.input-group{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:18px;
+}
+
+.input-group label{
+    font-weight:600;
+    margin-bottom:8px;
+    color:#2d3748;
+}
+
+.input-group input,
+.input-group textarea{
+    padding:12px;
+    border:1px solid #dcdcdc;
+    border-radius:8px;
+    font-size:14px;
+    transition:0.3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus{
+    outline:none;
+    border-color:#f6ad55;
+    box-shadow:0 0 8px rgba(246,173,85,0.3);
+}
+
+.contact-form button{
+    width:100%;
+    background:#f6ad55;
+    color:white;
+    border:none;
+    padding:14px;
+    font-size:15px;
+    font-weight:600;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-form button:hover{
+    background:#e89a3f;
+}
